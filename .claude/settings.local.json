@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git *)",
+      "Bash(python -c \"import wrds, pandas, numpy, statsmodels, scipy, matplotlib, pyarrow; print\\('all imports OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3 -m pip install -r \"C:\\\\Files\\\\ClaudeProjects\\\\corrcoint\\\\requirements.txt\")",
+      "Bash(python3 -m pip install seaborn)",
+      "Bash(python3 -m pip install wrds --no-deps)",
+      "Bash(python3 -c \"import wrds, pandas, numpy, statsmodels, scipy, matplotlib, pyarrow, seaborn; print\\('all imports OK'\\)\")",
+      "Bash(python3 01_download_taq.py)",
+      "Bash(python3 -m pip install psycopg2-binary)",
+      "Bash(python3 02_process_returns.py)",
+      "Bash(python3 -)",
+      "Bash(python3 03_correlations.py)",
+      "Bash(python3 04_cointegration.py)",
+      "Bash(python3 05_pca.py)",
+      "Bash(python3 06_visualize.py)",
+      "Bash(python3 07_report.py)"
+    ]
+  }
+}

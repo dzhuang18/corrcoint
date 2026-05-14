@@ -1,3 +1,4 @@
 # Word temporary files
 ~$*
 *.tmp
+data/
